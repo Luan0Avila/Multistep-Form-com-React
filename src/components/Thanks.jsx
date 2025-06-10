@@ -1,7 +1,7 @@
 import './Thanks.css'
 import { BsFillEmojiHeartEyesFill, BsFillEmojiSmileFill, BsFillEmojiNeutralFill, BsFillEmojiFrownFill} from 'react-icons/bs'
 
-const Thanks = () => {
+const Thanks = ({data}) => {
   return (
     <div className='thanks-container'>
       <h2>Falta pouco...</h2>
